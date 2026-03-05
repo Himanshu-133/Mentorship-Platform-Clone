@@ -1,0 +1,13 @@
+@app.route('/api/posts', methods=['POST'])
+def add_post():
+    data = request.json
+    new_post = Post(
+        title=data['title'],
+        course=data['course'],
+        category=data['category'],
+        priority=data['priority'],
+        text=data['text']
+    )
+    db.session.add(new_post)
+    db.session.commit()
+    return jsonify({'message': 'Post created successfully!'}), 201
