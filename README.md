@@ -115,7 +115,7 @@ index
 
 📦 Installation
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/mentorship-platform.git
+git clone https://github.com/Himanshu-133/mentorship-platform.git
 cd mentorship-platform
 2️⃣ Install Backend Dependencies
 
