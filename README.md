@@ -1,20 +1,20 @@
 🎓 Mentorship Platform
 
-A simple student–mentor mentorship platform that allows students to post queries, interact with mentors, and track academic progress. The platform includes a modern frontend interface and a Flask backend API for handling posts.
+An easy-to-use student–mentor mentorship platform on which students can publish questions, communicate with mentors, and monitor academic outcomes. It has a modern front end interface, and a Flask backend API to process posts.
 
 🚀 Features
 
 🏠 Dashboard
 
-View recent student queries
+View student queries recently received.
 
 Upcoming mentoring events
 
-Academic marketplace for study materials
+Academic marketplace to buy and sell study materials.
 
 📝 Post Queries
 
-Students can submit questions with:
+Students may include questions with:
 
 Title
 
@@ -36,7 +36,7 @@ Simulated meeting interface
 
 Chat with mentors
 
-Simulated responses for demonstration
+Example responses (simulated)
 
 👤 Student Profile
 
@@ -46,7 +46,7 @@ Academic grade visualization
 
 🛒 Academic Marketplace
 
-Buy or sell study materials
+Purchase or sell Study materials.
 
 🏗️ Project Structure
 mentorship-platform/
@@ -65,7 +65,7 @@ mentorship-platform/
 └── README.md
 ⚙️ Backend (Flask API)
 
-The backend is built using Flask and SQLite.
+It will be developed with Flask and SQLite for the backend.
 
 It provides an API endpoint to create posts.
 
@@ -76,20 +76,20 @@ POST /api/posts
 Payload:
 
 {
-  "title": "Operating Systems Help",
-  "course": "Computer Science & Engineering",
+  Maintaining the system.Help in operating systems.
+  The course is Computer Science & Engineering,
   "category": "Assignment Help",
   "priority": "High",
-  "text": "Need help understanding scheduling algorithms."
+  Need help in understanding scheduling algorithms.
 }
 
-The backend stores posts in a SQLite database using SQLAlchemy. 
+Posts are stored in a SQLite database in the back-end using SQLAlchemy. 
 
 app
 
 💻 Frontend
 
-The frontend is a single-page application (SPA) built using:
+The front end is a single page application (SPA) with:
 
 HTML
 
@@ -109,7 +109,7 @@ Chat simulation
 
 Profile progress charts
 
-The frontend sends API requests to the Flask backend when submitting queries. 
+When making a query, the frontend communicates with the Flask backend via the API. 
 
 index
 
@@ -119,7 +119,7 @@ git clone https://github.com/Himanshu-133/mentorship-platform.git
 cd mentorship-platform
 2️⃣ Install Backend Dependencies
 
-Create a virtual environment (recommended):
+Build virtual environment (Optional):
 
 python -m venv venv
 
@@ -152,7 +152,7 @@ in your browser.
 
 🗄️ Database
 
-The project uses SQLite.
+The project is implemented with SQLite.
 
 The database file:
 
@@ -186,11 +186,11 @@ SQLite
 
 📸 Future Improvements
 
-Possible upgrades for the platform:
+Platform improvements that could be implemented:
 
 User authentication (login/signup)
 
-Real-time chat using WebSockets
+Live chat support with WebSockets.
 
 Mentor booking system
 
@@ -198,8 +198,8 @@ File upload support
 
 Notifications system
 
-Full marketplace with payments
+To add to a marketplace with payments.To add a marketplace with payments.
 
 👨‍💻 Author
 
-Developed as a student mentorship platform prototype to help students connect with mentors, ask questions, and track academic progress.
+Created as a prototype for a student mentorship platform to meet the needs of the students of the platform to connect with mentors, ask questions and monitor their academic development.
